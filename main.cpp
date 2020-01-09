@@ -15,7 +15,7 @@ void menu() {
 void usingStack() {
     int command, minicommand, index;
     double val;
-    cntr::Stack<trapeze<double>> st;
+    countainer::Stack<trapeze<double>> st;
     for (;;) {
         std::cin >> command;
         if (command == 1) {
